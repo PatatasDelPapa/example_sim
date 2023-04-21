@@ -6,9 +6,10 @@ version = 3
 name = "example_sim"
 version = "0.1.0"
 dependencies = [
- "simulator_nightly",
+ "rustsim",
 ]
 
 [[package]]
-name = "simulator_nightly"
+name = "rustsim"
 version = "0.1.0"
+source = "git+https://github.com/PatatasDelPapa/RustSim.git?branch=main#27b54c325536fa95ef1138c5d1c2ceadb4315236"
