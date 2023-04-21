@@ -1,0 +1,9 @@
+[package]
+name = "example_sim"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+simulator_nightly = { version = "0.1", path = "../simulator_center/simulator_nightly" }
