@@ -36,7 +36,7 @@ fn main() {
     *state.get_mut(entity_b_key).unwrap() = Some(b_key);
 
     // Devolver el state al simulador
-    // este paso debe hacerse antes de llamar a step_with
+    // este paso debe hacerse antes de ejecutar la simulacion ej. step_with, step, run_with_limit, etc.
     shared_state.set(state);
 
     // Agendar las entidades
